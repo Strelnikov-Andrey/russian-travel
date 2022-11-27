@@ -1,4 +1,4 @@
-.photo__grid-lists {
+.photo-grid__lists {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-content: center;
@@ -10,14 +10,14 @@
   }
 
   @media screen and (max-width: 1023px) {
-    .photo__grid-lists {
+    .photo-grid__lists {
       grid-template-columns: repeat(3, 1fr);
       gap: 14px;
     }
   }
 
   @media screen and (max-width: 767px) {
-    .photo__grid-lists {
+    .photo-grid__lists {
       grid-template-columns: repeat(2, 1fr);
       gap: 16px;
       padding: 0 24px 88px;
@@ -25,7 +25,7 @@
   }
 
   @media screen and (max-width: 612px) {
-    .photo__grid-lists {
+    .photo-grid__lists {
       grid-template-columns: minmax(288px, 1fr);
       row-gap: 12px;
       padding: 0 16px 64px;
