@@ -1,0 +1,14 @@
+@media screen and (max-width:870px) {
+    .places {
+      row-gap: 73px;
+      padding: 0 24px 90px;
+    }
+    }
+    
+    @media screen and (max-width:450px) {
+    .places {
+      row-gap: 20px;
+      padding: 0 0 66px;
+      padding-right: 20px;
+    }
+    }
