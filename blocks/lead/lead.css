@@ -8,3 +8,11 @@
     padding-bottom: 92px;
     max-width: 984px;
   }
+
+  @media screen and (max-width:321px){
+    .lead {
+      /* padding: 44px; */
+      padding: 0;
+      margin-bottom: 53px;
+    }
+  }

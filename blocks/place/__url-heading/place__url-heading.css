@@ -8,10 +8,20 @@
     /* identical to box height, or 100% */
     letter-spacing: 2px;
     color: #aaaaaa;
+    text-transform: uppercase;
   }
 
   @media screen and (max-width:450px) {
     .place__url-heading {
       padding: 0 0 0 28px;
     }
+  }
+  @media screen and (max-width: 769px) {
+    .place__url-heading {
+    font-size: 12px;
+    line-height: 12px;
+    max-width: 352px;
+    height: 12px;
+    }
+
   }

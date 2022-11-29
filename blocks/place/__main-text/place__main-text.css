@@ -1,0 +1,15 @@
+.place__main-text {
+    max-width: 484px;
+  }
+
+  @media screen and (max-width: 767px) {
+    .place__main-text {
+      padding: 21px 0px 0px 3px;
+    }
+  }
+  @media screen and (min-width: 319px) and (max-width: 325px) {
+    .place__main-text {
+    padding: 0px 16px 25px 16px;
+    }
+  }
+  

@@ -7,6 +7,14 @@
   @media screen and (max-width: 325px) {
     .place__image {
       grid-row: 3 / 4;
-      margin:  15px 0px -17px 0px;
+      /* margin:  15px 0px -17px 0px; */
     }
   }
+  @media screen and (min-width: 319px)and (max-width: 325px){
+    .place__image{
+      margin: 0;
+      padding: 0;
+      padding-bottom: 29px;
+    }
+  }
+  

@@ -2,11 +2,16 @@
     align-self: end;
   }
 
-  @media screen and (max-width: 660px) {
+   /* @media screen and (max-width: 660px) {
     .place__website{
-      width: calc(100vw - 32px);
-      margin: 0 0 0 -13px;
-    }
-  }
+       width: calc(100vw - 32px); 
+    } 
+  } */
 
+  @media screen and (min-width: 319px)and (max-width: 325px) {
+    .place__website{
+      position: relative;
+      right: 14px;
+    } 
+  }
  

@@ -2,5 +2,13 @@
     list-style: none;
     padding-left: 1px;
     padding-top: 15px;
+    margin: 0;
 }
+
+@media screen and (max-width: 321px) {
+    .intro__list {
+    /* margin: 16px 0px 0px; */
+    }  
+}
+
   
