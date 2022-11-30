@@ -7,15 +7,4 @@
     justify-content: center;
     margin: 0;
     text-decoration: none;
-    color: #ffffff;
-    background-color: rgba(42, 44, 47, 0.3);
-    transition: background-color 0.3s ease-in-out;
-    z-index: -1;
-    position: absolute;
-    left: 0;
-    top: 0;
-  }
-
-  .cover__link:hover {
-    background-color: rgba(42, 44, 47, 0.6);
   }

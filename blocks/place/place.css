@@ -10,6 +10,10 @@
     padding-bottom: 80px;
   }
 
+  .place:last-of-type{
+    padding-bottom: 0;
+  }
+
   @media screen and (max-width:1025px){
 .place {
   grid-template-columns: 440px minmax(min-content,max-content);
@@ -38,9 +42,10 @@
 }
 }
 
-@media screen and (min-width: 319px)and (max-width: 325px) {
+@media screen and (max-width: 326px) {
   .place {
     margin: 0 auto;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
+    grid-gap: 10px 22px;
   }
 }

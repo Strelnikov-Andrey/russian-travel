@@ -2,10 +2,11 @@
     margin: 0 auto;
   }
 
-  @media screen and (min-width: 319px)and (max-width: 325px) {
+  @media screen and (max-width: 325px) {
     .photo-grid {
       max-width: 288px;
-    min-height: 2724px;
+      margin-bottom: 64px;
+    /* min-height: 2724px; */
     
     }
   }

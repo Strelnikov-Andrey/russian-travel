@@ -13,8 +13,9 @@
   }
 }
 
-@media screen and (min-width: 319px) and (max-width: 325px) {
+@media screen and (max-width: 326px) {
   .places {
     padding: 0;
+    margin-bottom: 66px;
   }
 }

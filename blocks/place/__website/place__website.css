@@ -8,10 +8,9 @@
     } 
   } */
 
-  @media screen and (min-width: 319px)and (max-width: 325px) {
+  @media screen and (max-width: 326px) {
     .place__website{
-      position: relative;
-      right: 14px;
+      padding: 0px 0px 36px 18px;
     } 
   }
  

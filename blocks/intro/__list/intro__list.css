@@ -5,9 +5,9 @@
     margin: 0;
 }
 
-@media screen and (max-width: 321px) {
+@media screen and (max-width: 326px) {
     .intro__list {
-    /* margin: 16px 0px 0px; */
+    padding-top: 33px;
     }  
 }
 

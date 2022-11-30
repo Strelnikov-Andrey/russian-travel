@@ -23,8 +23,8 @@
   @media screen and (max-width: 321px){
     .intro {
       max-width: 288px;
-      min-height: 754px;
+      /* min-height: 754px; */
       padding: 0;
-      margin-bottom: 47px;
+      margin-bottom: 64px;
   }
 }
