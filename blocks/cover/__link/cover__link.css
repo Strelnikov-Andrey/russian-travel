@@ -8,3 +8,9 @@
     margin: 0;
     text-decoration: none;
   }
+
+  @media screen and (max-width: 768px) {
+    .cover__link {
+      /* margin: 0px 10px 151px 10px; */
+    }
+  }

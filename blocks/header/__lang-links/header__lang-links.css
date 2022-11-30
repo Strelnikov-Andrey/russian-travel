@@ -17,6 +17,10 @@
     }
   }
 
-
+  @media screen and (max-width:768px) {
+    .header__lang-links {
+      gap: 28px;
+    }
+  }
 
   

@@ -40,7 +40,7 @@
 @media screen and (min-width: 375px) and (max-width: 1023px) {
   .cover {
     width: 100%;
-    min-height: 480px;
+     min-height: 483px; 
     margin: 0;
   }
 }
@@ -50,6 +50,12 @@
     width: 100%;
     min-height: 200px;
     margin: 0;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .cover {
+    min-height: 480px;
   }
 }
 
