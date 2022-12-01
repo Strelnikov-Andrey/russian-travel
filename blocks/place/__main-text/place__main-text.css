@@ -1,15 +1,14 @@
 .place__main-text {
-    max-width: 484px;
-  }
+  max-width: 484px;
+}
 
-  @media screen and (max-width: 767px) {
-    .place__main-text {
-      padding: 21px 0px 0px 3px;
-    }
+@media screen and (max-width: 767px) {
+  .place__main-text {
+    padding: 21px 0px 0px 3px;
   }
-  @media screen and (max-width: 326px) {
-    .place__main-text {
+}
+@media screen and (max-width: 326px) {
+  .place__main-text {
     padding: 0px 16px 0px 16px;
-    }
   }
-  
+}

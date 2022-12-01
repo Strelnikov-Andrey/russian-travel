@@ -1,15 +1,14 @@
 .photo-grid {
-    margin: 0 auto;
-  }
+  margin: 0 auto;
+}
 
-  @media screen and (max-width: 325px) {
-    .photo-grid {
-      max-width: 288px;
-      margin-bottom: 64px;
-    /* min-height: 2724px; */
-    
-    }
+@media screen and (max-width: 325px) {
+  .photo-grid {
+    max-width: 288px;
+    margin-bottom: 64px;
   }
+}
+
 
 
 

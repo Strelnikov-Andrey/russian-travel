@@ -19,13 +19,6 @@
   }
 }
 
-/* @media screen and (max-width: 769px) {
-  .footer__links {
-    padding: 0px 0px 0px 21px;
-    margin: -12px 0px 0px 0px;
-  }
-} */
-
 @media screen and (min-width: 319px) and (max-width: 325px) {
   .footer__links {
     font-weight: 400;

@@ -1,23 +1,26 @@
 .lead__caption {
-    font-family: "Inter", Arial, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 14px;
-    /* identical to box height, or 140% */
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    color: #ffffff;
-    margin: 8px 0 0 24px;
-    align-self: start;
-    padding: 0;
-  }
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 8px 0 0 24px;
+  align-self: start;
+  padding: 0;
+}
 
-  
-  @media screen and (max-width:321px){
-    .lead__caption{
-      /* padding-left: 16px; */
-      padding-left: 0px;
-      margin: 5px 0px 0px 13px;
-    }
+@media screen and (max-width: 1280px) {
+  .lead__caption {
+    margin: 9px 0px 0px 0px;
   }
+}
+
+@media screen and (max-width: 321px) {
+  .lead__caption {
+    padding-left: 0px;
+    margin: 5px 0px 0px 13px;
+  }
+}

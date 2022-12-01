@@ -1,9 +1,9 @@
 .footer__link-item {
-    color: #ffffff;
-    text-decoration: none;
-    transition: opacity 2s ease-in-out;
-  }
+  color: #ffffff;
+  text-decoration: none;
+  transition: opacity 2s ease-in-out;
+}
 
-  .footer__link-item:hover {
-    opacity: 0.8;
-  }
+.footer__link-item:hover {
+  opacity: 0.8;
+}

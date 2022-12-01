@@ -1,16 +1,9 @@
 .place__website {
-    align-self: end;
-  }
+  align-self: end;
+}
 
-   /* @media screen and (max-width: 660px) {
-    .place__website{
-       width: calc(100vw - 32px); 
-    } 
-  } */
-
-  @media screen and (max-width: 326px) {
-    .place__website{
-      padding: 0px 0px 36px 18px;
-    } 
+@media screen and (max-width: 326px) {
+  .place__website {
+    padding: 0px 0px 20px 18px;
   }
- 
+}
