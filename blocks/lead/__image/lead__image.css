@@ -5,10 +5,11 @@
   width: 100%;
 }
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1024px) {
   .lead__image {
     max-width: 928px;
-    padding: 16px 0px 0px 0px;
+    /* padding: 16px 0px 0px 0px; */
+    padding: 0;
   }
 }
 

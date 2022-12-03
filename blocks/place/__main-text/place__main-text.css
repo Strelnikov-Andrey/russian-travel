@@ -1,5 +1,6 @@
 .place__main-text {
   max-width: 484px;
+  margin: auto;
 }
 
 @media screen and (max-width: 767px) {
